@@ -41,6 +41,8 @@ public class MainApp {
          System.out.println();
       }
 
+      System.out.println(userService.getACarUser("UAZ", 3151));
+
       context.close();
    }
 }
